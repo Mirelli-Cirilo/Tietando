@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from security import CLIENT_ID, SECRET_ID
+from security.security import CLIENT_ID, SECRET_ID
 import base64
 import json
 import requests
